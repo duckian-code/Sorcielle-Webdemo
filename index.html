@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Website Metadata -->
+    <meta charset="UTF-8" />
+    <meta property="type" content="website" />
+    <meta propert="og:title" content="Sorcielle - Magic Through Code" />
+    <meta
+      property="og:description"
+      content="Personal Professional Portfolio of Lily McClellan"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal Professional Portfolio of Lily McClellan"
+    />
+    <meta
+      name="keywords"
+      content="development, developer, front-end, back-end, full-stack, portfolio, Lily McClellan, Sorcielle"
+    />
+
+    <!-- Website Componenets -->
+    <title>Sorcielle - Magic Through Code</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/icons/favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="/icons/favicon.ico" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Star Theme from Rohan-Gautam on GitHub -->
+    <header role="banner" id="pre-header">
+      <div class="container">
+        <button id="openbtn" onclick="openNav()" title="Open Navigation">&#9776;</button>
+        <h1>Sorcielle</h1>
+        <button id="toggle-decor" aria-label="Toggle Décor" title="Toggle Décor">
+          &#8486
+        </button>
+      </div>
+      <q>The programmers of tomorrow are the wizards of the future</q>
+      <p>~ Gabe Newell</p>
+    </header>
+
+    <nav role="navigation">
+      <div id="main-sidebar" class="sidebar">
+        <img src="tempicon.png" id="sidebar-icon" class="icon">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close Navigation"
+          >&times;</a
+        >
+        <br>
+        <!-- TODO: make these a bit more thematic -->
+        <a href="about.html" aria-label="Who I am">About Me</a>
+        <br>
+        <a href="projects.html" aria-label="Professional Experience"
+          >My Projects</a
+        >
+        <br>
+        <a href="education.html" aria-label="Educational Experiences"
+          >My Education</a
+        >
+        <br>
+        <a href="socials.html" aria-label="My Contact and Socials"
+          >My Socials</a
+        >
+      </div>
+    </nav>
+
+    <main role="main" id="main">
+      <!-- TODO: add Who Am I, What do I do (tabs to view overview), Brief Socials-->
+      <div class="container">
+        <h2>Hello, I'm <span class="text-emphasis">Lily McClellan</span></h2>
+        <p class="typed-description">
+          Software Engineer, Full-Stack Developer, And More...</span>
+        </p>
+      </div>
+    </main>
+    
+    <!-- TODO: expand footer to include logo quick nav and contact information (like stackoverflow) -->
+    <footer>
+      <div id="footer-content">
+        <h3>Sorcielle</h3>
+        <a href="index.html">Landing</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">My Projects</a>
+        <a href="education.html">My Education</a>
+        <a href="socials.html">Contact</a>
+        <h3>Socials</h3>
+        <a href="https://github.com/duckian-code" target="_blank">GitHub</a>
+        <a href="www.linkedin.com/in/lily-mcclellan-b37570335" target="_blank"
+          >LinkedIn</a
+        >
+        <p id="copyright">Copyright ©2025 Lily McClellan</p>
+      </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
