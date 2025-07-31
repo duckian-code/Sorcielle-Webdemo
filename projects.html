@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="CSC210 - Intro to Web Presentation and Development">
+	<meta name="keywords" content="Neumont, CSC210, web dev, web development, student, portfolio, HTML5, CSS3">
+
+	<!-- The OG here means Open Graph, which tags control for social media channels. -->
+	<meta property="og:title" content="CSC210 - Intro to Web Presentation and Development">
+	<meta property="ogLdescription" content="This could be your personal portfolio to showvace your web dev and project skills">
+	<meta property="og:type" content="website">
+
+	<!-- fav icon goes here -->
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml, <svg xmlns='httpL//www.w3.org/2000/svg' viewBox='0 0 100 100>"></link>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio - Lily McClellan</title>
+</head>
+<body>
+<!--Skip link for accessibility-->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!--HTML5 semantic header-->
+<header role ="banner">
+    <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+	<div class="container">
+		<h1>Lily McClellan</h1>
+		<p class="tagline">Software Engineering Student</p>
+	</div>
+</header>
+<br><br>
+<aside class="hobbies" aria-labelledby="projects-heading">
+	<div class="container">
+	<section class="heading">
+		<div class="interests-content">
+					<h3 id="hobbies-heading">My Projects</h3>
+					<div id="roselight">
+						<div class="image-section">
+							<h3>Roselight</h3>
+							<img src="images/roselight-ui.png" class="project-image" alt="UI design sketch">
+							<p>Roselight UI Sketch</p>
+						</div>
+						<p>Roselight is my big upcoming personal project. There are two major componenets to this project, 
+							the software (Roselight), and the custom LLM (Aiko). Roselight's purpose is to be a lightweight
+							 desktop solution to running LLM's on your own machine, and Aiko will be the demo LLM created to
+							 showcase the softwares main features. <br><br> The branding initially will be towards mental health and
+							 accessability of AI technology, but Roselight's prospective modular features will allow it to
+							 interface with any LLM (built in Ollama support planned) and allow the user to have their own
+							 'ChatGPT', 'Claude', or just general assistant on their local machine without worries over digital
+							 privacy, expensive subscriptions, or rate limiting. <br><br>The only limitation is what your personal computer
+							 can handle, which in our modern day is a surprisingly impressive catalogue.<br><br> This project will be 
+							 written in C++ using GTK4 (of which I have some experience already), with the LLM using a document database
+							 and custom logic (Rust or Python) for running the LLM integrations (which will likely use HuggingFace with a few other
+							 components)
+						</p>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div id="sorcielle">
+						<div class="image-section">
+							<h3>sorcielle.dev</h3>
+							<img src="images/sorcielle-dev.png" class="project-image">
+							<p>Sorcielle working landing page</p>
+						</div>
+						<p>Sorcielle will be my full personal website and personal portfolio (separated by a wildcard domain to avoid interference). 
+							Though this current website is serving as my active portfolio, I have plans to migrate over after situating the full project.
+							<br><br> The full website spans far more than just static front end webdesign. To discuss those plans, I need to separate the project
+							into its personal and professional parts:
+						</p>
+						<br>
+						<h4>Personal</h4>
+						<p>My personal website will have basic website integration with a multitude of back-end concepts like a database for website accounts
+							(for use in a WebRTC client), file hosting service, and more !
+						</p>
+						<br>
+						<h4>professional</h4>
+						<p>Additional to all of the fun web-app projects, I plan on having a few interesting professional ones. For starters, I will be hosting my
+							own email service (pending technical evaluation, highly prospective), a more advanced and dynamic portfolio using TypeScript, and a 
+							more complete demonstration of the projects that I have completed or am completing.
+						</p>
+					</div>
+					<br>
+					<hr>
+					<br>
+					<div id="coffre">
+						<div class="image-section">
+							<h3>Coffre (and more)</h3>
+							<img src="images/coffre-code.png" class="project-image">
+							<p>Code snippet of Coffre</p>
+						</div>
+						<p>I could demo nearly a hundred different CLI applications or scripts that I have run, but Coffre is different. Coffre is my first attempt
+							at branching out from mundane static applications to an actually practical full CLI application. It's a simple encryption app with the
+							ability to encrypt/decrypt/hash files. <br><br> This was my first full attempt at something that can be deployed as a full CLI app on
+							my computer and fulfil a full function that I find the need of in my technical endeavours. This project was the start of a series of 'script'
+							projects that fulfil a multitude of basic needs (an efficient CLI calculator, this encryption CLA, and more to come).<br><br> Though simple in 
+							nature, this application was my first step in an ever increasing path towards my more ambitious goals and projects, and marks the start of my
+							full development career.
+						</p>
+					</div>
+					</section>
+					<nav role = "navigation">
+						<span class = "pagenav">
+							<ul>
+								<li> <a href = "index.html">Overview</a></li>
+								<li> <a href = "skills.html">My Skills</a></li>
+								<li> <a href = "contact.html">Contact Me</a></li>
+								</ul>
+                    </span>
+						</div>
+					</nav>
+					<br>
+					</div>
+<script src="js/main.js"></script>
+</body>
+<footer>Copyright ©2025 by Lily McClellan</footer>
+</html>

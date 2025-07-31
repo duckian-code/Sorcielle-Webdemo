@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="CSC210 - Intro to Web Presentation and Development">
+	<meta name="keywords" content="Neumont, CSC210, web dev, web development, student, portfolio, HTML5, CSS3">
+
+	<!-- The OG here means Open Graph, which tags control for social media channels. -->
+	<meta property="og:title" content="CSC210 - Intro to Web Presentation and Development">
+	<meta property="ogLdescription" content="This could be your personal portfolio to showvace your web dev and project skills">
+	<meta property="og:type" content="website">
+
+	<!-- fav icon goes here -->
+	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml, <svg xmlns='httpL//www.w3.org/2000/svg' viewBox='0 0 100 100>"></link>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio - Lily McClellan</title>
+</head>
+<body>
+<!--Skip link for accessibility-->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!--HTML5 semantic header-->
+<header role ="banner">
+    <button class="theme-toggle" id="theme-toggle">Dark Mode</button>
+	<div class="container">
+		<h1>Lily McClellan</h1>
+		<p class="tagline">Software Engineering Student</p>
+	</div>
+</header>
+
+<!--HTML5 Semantic Navigation-->
+<main id="main-content" role="main">
+	<div class="container">
+		<!--About section with HTML5 semantic elements-->
+		<section class="about" aria-labelledby="about-heading">
+			<h2 id="fav-heading">My Skills</h2>
+			<div class="favweb-content">
+                <aside class="favweb" aria-labelledby="technical-skills-heading">
+                    <ol type="1">
+                        <h3>Technological Skills</h3>
+                        <li>
+                            <p>Java</p>
+                        </li>
+                        <p>    * IntelliJ, Jupyter, Maven, and Gradle. Back-end.</p>
+                        <li>
+                            <p>C++</p>
+                        </li>
+                        <p>    * CLion, CMake, GTK4. Full-stack.</p>
+                        <li>
+                            <p>Python</p>
+                        </li>
+                        <p>    * UV and Jupyter. Back-end/scripting.</p>
+                        <li>
+                            <p>HTML/CSS/JS</p>
+                        </li>
+                        <p>    * API calls, HTML5 semantics, CSS3 semantics. Web-development.</p>
+                        <li>
+                            <p>System Administration</p>
+                        </li>
+                        <p>    * Windows (Server, 7, 10, 11) and Linux Server/Desktop(Ubuntu, Debian, Fedora, Raspbian, Arch)</p>
+                        <li>
+                            <p>Webserver Development</p>
+                        </li>
+                        <p>    * PostgreSQL, MongoDB, Redis, LAMPS, Nginx.</p>
+                        <li>
+                            <p>Work Flow</p>
+                        </li>
+                        <p>    * Git, GitHub, Docker, VirtualBox, Proxmox, KVM/QEMU, VMware.</p>
+                        <p>    * Additionally: YAGINI, KISS, and DRY as programming philosophies.</p>
+                    </ol>
+                    <br>
+                </aside>
+            </div>
+            <div class="favweb-content">
+                <aside class="favweb" aria-labelledby="personal-skills-heading">
+                    <ol type="1">
+                        <h3>Personal Skills</h3>
+                        <li>
+                            <p>Leadership</p>
+                        </li>
+                        <p>    * I am comfortable leading/amanaging a team of small to medium scale (3 to 30).</p>
+                        <li>
+                            <p>Teamwork</p>
+                        </li>
+                        <p>    * I am also more than comfortable working as a team within assigned guidelines or instruction.</p>
+                        <li>
+                            <p>Communication</p>
+                        </li>
+                        <p>    * I am an effective communicator both in person and online; to superiors, coworkers, or other.</p>
+                        <li>
+                            <p>Misc</p>
+                        </li>
+                        <p>    * I am familiar with SCRUM, agile, and waterfall project management structures.</p>
+                    </ol>
+                    <br>
+                </aside>
+            </div>
+            <nav role = "navigation">
+                    <span class = "pagenav">
+							<ul>
+								<li> <a href = "index.html">Overview</a></li>
+								<li> <a href = "projects.html">My Projects</a></li>
+								<li> <a href = "contact.html">Contact Me</a></li>
+                    </span>
+                    </nav>
+		</section>
+	</div>
+</main>
+<script src="js/main.js"></script>
+</body>
+<footer>Copyright ©2025 by Lily McClellan</footer>
+</html>
