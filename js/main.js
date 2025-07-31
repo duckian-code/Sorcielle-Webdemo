@@ -119,12 +119,12 @@ setInterval(async () => {
 }, 60 * 60 * 1000);
 
 // Image Slideshow
-const property = "url(../images/moi";
-const extension = ".jpg)";
+const property = "url('/Sorcielle-Webdemo/images/moi";
+const extension = ".jpg')";
 const total = 4;
 let index = 2;
 setInterval(async () => {
-    // console.log(`Changing image to: ${property + index + extension}`);
+    console.log(`Changing image to: ${property + index + extension}`);
     document.getElementById("moi-img").style.content = property + index + extension;
     index++;
     if (index == total + 1) {
